@@ -18,7 +18,7 @@ My Operational System in moment is ubuntu, however, is usualy fore more systems
 -curl
 -Neovim  
 
-#### On Debian based distros, run:
+### this intalation tutorial is for Debian based distros
 
 ```bash
 #Update the repository
