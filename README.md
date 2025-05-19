@@ -44,8 +44,10 @@ in your terminal, run:
 git clone https://github.com/Naito-dev/nvim ~/.config/
 ```
 and run nvim:
+
 ```bash
-nvim```
+nvim
+```
   
 ======================================================
 
