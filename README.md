@@ -13,9 +13,9 @@ My Operational System in moment is ubuntu, however, is usualy fore more systems
 
 #### installed in your System:
 
--snap
--git
--Neovim
+-snap  
+-git  
+-Neovim  
 
 #### On Debian based distros, run:
 
@@ -46,4 +46,6 @@ git clone https://github.com/Naito-dev/nvim ~/.config/
 and run nvim:
 ```bash
 nvim```
+  
+======================================================
 
