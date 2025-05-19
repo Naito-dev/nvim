@@ -48,6 +48,10 @@ and run nvim:
 ```bash
 nvim
 ```
+
+just Coc plugin for language server run, you need compile he, I won't go into detail about this, i share the official repository for Coc Plugin for you compile and install Lsp:
+[Coc official repository](https://github.com/neoclide/coc.nvim)
+
   
 
 
