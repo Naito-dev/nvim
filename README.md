@@ -4,7 +4,6 @@ I love vim and Neovim, and i send my configuration to world(Vim Maniacs in githu
 
 ![Example for my configuration](image.png)
 
-
 ## installation
 
 My Operational System in moment is ubuntu, however, is usualy fore more systems 
@@ -13,10 +12,10 @@ My Operational System in moment is ubuntu, however, is usualy fore more systems
 
 #### installed in your System:
 
--snap  
--git
--curl
--Neovim  
+-snap    
+-git  
+-curl  
+-Neovim   
 
 ### this intalation tutorial is for Debian based distros
 
@@ -61,6 +60,11 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ```bash
 #and run nvim:
 nvim
+```
+
+```bash
+#Run this comnand int the nvim for Installing plugins
+:PlugInstall
 ```
 
 just Coc plugin for language server run, you need compile he, I won't go into detail about this, i share the official repository for Coc Plugin for you compile and install Lsp:
