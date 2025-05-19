@@ -14,24 +14,30 @@ My Operational System in moment is ubuntu, however, is usualy fore more systems
 #### installed in your System:
 
 -snap  
--git  
+-git
+-curl
 -Neovim  
 
 #### On Debian based distros, run:
 
-for snap repository:
 ```bash
+#Update the repository
+sudo apt update
+```
+
+```bash
+#for snap repository:
 sudo apt install snapd
 ```
 
-for nvim:
 ```bash
+#for nvim:
 sudo snap install --classic nvim
 ```
 
-for git:
 ```bash
-sudo apt install git
+#for git and curl:
+sudo apt install git curl
 ```
 
 next step for installed dependecies:
@@ -40,12 +46,20 @@ next step for installed dependecies:
 
 in your terminal, run:
 
+
 ```bash
 git clone https://github.com/Naito-dev/nvim ~/.config/
 ```
-and run nvim:
+
 
 ```bash
+#need install VimPlug for install this plugins in init.vim:
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+"     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
+
+```bash
+#and run nvim:
 nvim
 ```
 
