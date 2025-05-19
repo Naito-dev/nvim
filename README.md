@@ -1,6 +1,6 @@
 # My Nvim configuration for java Workspace
 
-    I love vim and Neovim, and i send my configuration to world(Vim Maniacs in github hahaha) for help me in upgrades or talking for the grandious text editor is (the god vim) hahaha
+I love vim and Neovim, and i send my configuration to world(Vim Maniacs in github hahaha) for help me in upgrades or talking for the grandious text editor is (the god vim) hahaha
 
 ![Example for my configuration](example.png)
 
@@ -49,5 +49,5 @@ and run nvim:
 nvim
 ```
   
-======================================================
+
 
